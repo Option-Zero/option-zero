@@ -11,7 +11,7 @@ export default function Home() {
       <main className={styles.main}>
         <h1 className={styles.title}>Option Zero</h1>
 
-        <p className={styles.description}>climate tech consultancy</p>
+        <p className={styles.description}>climate tech software consultancy</p>
 
         <div className={styles.grid}>
           <div className={styles.card}>
