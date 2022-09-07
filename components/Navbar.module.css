@@ -1,0 +1,17 @@
+.sidebar nav {
+  margin-top: 8em;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar nav a {
+  text-transform: uppercase;
+  text-align: right;
+  padding-right: 1em;
+  padding-bottom: 0.2em;
+}
+
+.sidebar nav a:hover {
+  font-weight: 900;
+}
+
