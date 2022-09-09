@@ -9,9 +9,11 @@
   text-align: right;
   padding-right: 1em;
   padding-bottom: 0.2em;
+  font-family: FuturaFuturisLight;
 }
 
 .sidebar nav a:hover {
   font-weight: 900;
+  font-family: FuturaFuturisMedium;
 }
 

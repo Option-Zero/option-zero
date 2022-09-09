@@ -10,6 +10,7 @@ const Layout = ({ children }) => {
       <Head>
         <title>Option Zero</title>
         <link href="https://fonts.googleapis.com/css2?family=IBM Plex Sans" rel="stylesheet"></link>
+        <link rel="stylesheet" type="text/css" href="/FuturaFuturis.css"></link>
       </Head>
       <div className={styles.sidebar}>
         <Navbar />
