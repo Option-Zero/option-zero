@@ -1,7 +1,10 @@
 .sidebar nav {
-  margin-top: 8em;
+  margin-top: 6rem;
+  position: relative;
+  right: 0px;
   display: flex;
   flex-direction: column;
+  font-size: 20px;
 }
 
 .sidebar nav a {

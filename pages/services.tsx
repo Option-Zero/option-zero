@@ -46,7 +46,6 @@ const Services = () => {
       <p>You’re not ready to hire full-time software, or your existing employees are busy with mission-critical work.</p>
       <p>We’ll get your first prototype built or tackle that side project that would accelerate your team or get more customers in the door.</p>
       <p>Where we’ve delivered:</p>
-      <p>Meta - Microsoft - Convoy - EnergySavvy - Osmo Systems - Qnuru - Synapse - Olin College</p>
       <div className={styles.logos}>
         <MetaLogo />
         <MicrosoftLogo />
