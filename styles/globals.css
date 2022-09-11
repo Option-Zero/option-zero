@@ -41,3 +41,21 @@ p {
   font-weight: 300;
   margin-block: 1em;
 }
+
+p a {
+  font-weight: 400;
+  background: -webkit-linear-gradient(60deg, #73C959, #20E2D6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+p a:hover{
+  border-width: 0 0 2px 0;
+  border-style: solid;
+  border-image: 
+    linear-gradient(
+      60deg, 
+      #73C959, 
+      #20E2D6
+    ) 1;
+}

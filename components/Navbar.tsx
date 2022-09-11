@@ -11,7 +11,7 @@ const Navbar = () => {
       <nav>
         <Link href="/services"><a>Services</a></Link>
         <Link href="/team"><a>Team</a></Link>
-        <Link href="mailto:team@optionzero.io"><a>Contact</a></Link>
+        <Link href="/contact"><a>Contact</a></Link>
       </nav>
     </div>
   )
