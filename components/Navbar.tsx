@@ -7,7 +7,7 @@ import styles from './Navbar.module.css';
 const Navbar = () => {
   return (
     <div className={styles.sidebar}>
-      <Image src='/logo.svg' layout='fixed' width='100' height='40' />
+      <Image alt="Option Zero logo" src='/logo.svg' layout='fixed' width='100' height='40' />
       <nav>
         <Link href="/services"><a>Services</a></Link>
         <Link href="/about"><a>Team</a></Link>
