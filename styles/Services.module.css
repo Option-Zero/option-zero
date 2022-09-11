@@ -1,20 +1,56 @@
 .title {
   font-weight: 900;
-  margin: 0;
-  margin-top: 2em;
-  margin-bottom: 1em;
-  text-decoration: underline;
-  text-underline-position: under;
-  text-decoration-color: #1ED8B2;
+  font-size: 13pt;
+  text-transform: uppercase;
+  /* Add a gradient bottom border */
+  display: inline-block;
+  padding-bottom: .1em;
+  border-width: 0 0 2px 0;
+  border-style: solid;
+  border-image: 
+    linear-gradient(
+      to right, 
+      #73C959, 
+      #20E2D6
+    ) 1;
 }
 
 .title:first-child {
   margin-top: 0;
 }
 
+.content {
+  margin-bottom: 4em;
+  text-align: justify;
+}
+
 .content p {
+  font-weight: 300;
+  margin-block: 1em;
+}
+
+.solutionContainer {
+  display: inline;
+}
+
+.ourSolution {
+  font-weight: 600;
+  display: inline;
+}
+
+.solution {
+  display: inline;
+}
+
+.problemEmphasis {
+  display: inline;
+}
+
+.logosTitle {
+  text-align: center;
   font-weight: 200;
-  margin-block: 0.5em;
+  font-style: italic;
+  margin-top: 2em;
 }
 
 .logos {
@@ -23,11 +59,9 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  margin: 1em;
 }
 
 .logos img {
   filter: saturate(0%);
 }
-/* .logos img:hover {
-  filter: saturate(100%);
-} */
