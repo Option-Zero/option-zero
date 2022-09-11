@@ -1,15 +1,6 @@
-.title {
-  display: inline-block;
-}
-
 .content {
   margin-bottom: 4em;
   text-align: justify;
-}
-
-.content p {
-  font-weight: 300;
-  margin-block: 1em;
 }
 
 .solutionContainer {

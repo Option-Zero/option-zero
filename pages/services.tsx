@@ -7,7 +7,10 @@ import { ConvoyLogo, EnergySavvyLogo, MetaLogo, MicrosoftLogo, OlinLogo, OsmoLog
 
 const Services = () => {
   return (
-    <ServicesList />
+    <>
+      <p>We do software consulting and contracting for climate tech startups. Our services include:</p>
+      <ServicesList />
+    </>
   )
 }
 
@@ -21,14 +24,13 @@ export const ServicesList = () => {
 const Service = ({ service, index }: { service: Service, index?: number }) => {
   return (
     <div>
-      <h2>{service.title}</h2>
+      <h2 id={`service-${index}`}> {index}. {service.title}</h2>
       <div className={styles.content}>
         <p><div className={styles.problemEmphasis}>{service.problemEmphasis}</div>{service.problem}</p>
         <p><b>Our solution: </b>{service.solution}</p>
         {service.logoText && <div className={styles.logosTitle}>{service.logoText}</div>}
         {service.logos && <div className={styles.logos}>{service.logos}</div>}
       </div>
-
     </div>
   )
 }
@@ -45,7 +47,7 @@ type Service = {
 
 
 
-const SERVICES: Service[] = [
+export const SERVICES: Service[] = [
   {
     title: "Software strategy for non-software founders",
     problemEmphasis: "You’re starting to incorporate software ",

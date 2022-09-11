@@ -7,7 +7,7 @@ const Team = () => {
       <Image alt="team" src='/team.png' width="0" height="0" sizes="100vw" style={{ width: '300px', height: '100%', margin: '10px' }} />
       <p>Hi!</p>
       <p>We’re Jaime and Jason Curtis, a husband and wife team.</p>
-      <p>We've built on our combined 20+ years of experience in software and climate solutions to launch Option Zero, the software consultancy for climate companies & initiatives.</p>
+      <p>We’ve built on our combined 20+ years of experience in software and climate solutions to launch Option Zero, the software consultancy for climate companies & initiatives.</p>
       <p>If your mission is climate resilience, your mission is our mission.</p>
 
       <h2>Specializations</h2>
@@ -15,7 +15,7 @@ const Team = () => {
       <div><b>Jaime:</b> project & product management, team building, psychological safety</div>
       <div><b>Both:</b> full-stack development, product strategy</div>
       <h2>Stats</h2>
-      <div><b>Rows processed:</b> >1 billion</div>
+      <div><b>Rows processed:</b>&#62;1 billion</div>
       <div><b>Teams built:</b> ~10</div>
       <div><b>Robotic sailboats built:</b> 1</div>
       <div><b>Small humans developed:</b> 1</div>
