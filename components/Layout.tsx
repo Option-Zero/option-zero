@@ -11,6 +11,7 @@ const Layout = ({ children }) => {
         <title>Option Zero</title>
         <link href="https://fonts.googleapis.com/css2?family=IBM Plex Sans" rel="stylesheet"></link>
         <link rel="stylesheet" type="text/css" href="/FuturaFuturis.css"></link>
+        <link rel="shortcut icon" href="/favicon.png"></link>
       </Head>
       <div className={styles.sidebar}>
         <Navbar />
