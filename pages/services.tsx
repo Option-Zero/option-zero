@@ -25,10 +25,8 @@ const Service = ({ service, index }: { service: Service, index?: number }) => {
       <div className={styles.content}>
         <p><div className={styles.problemEmphasis}>{service.problemEmphasis}</div>{service.problem}</p>
         <p><b>Our solution: </b>{service.solution}</p>
-        <div className={styles.logosTitle}>{service.logoText}</div>
-        <div className={styles.logos}>
-          {service.logos}
-        </div>
+        {service.logoText && <div className={styles.logosTitle}>{service.logoText}</div>}
+        {service.logos && <div className={styles.logos}>{service.logos}</div>}
       </div>
 
     </div>

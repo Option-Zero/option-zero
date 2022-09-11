@@ -49,8 +49,7 @@
 .logosTitle {
   text-align: center;
   font-weight: 200;
-  font-style: italic;
-  margin-top: 2em;
+  margin-top: 3em;
 }
 
 .logos {
@@ -63,5 +62,5 @@
 }
 
 .logos img {
-  filter: saturate(0%);
+  filter: opacity(0.5) saturate(0%);
 }
