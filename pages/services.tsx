@@ -17,7 +17,7 @@ const Services = () => {
 export default Services
 
 export const ServicesList = () => {
-  return <div>{SERVICES.map((service, index) => <Service service={service} index={index} key={index} />)}</div >
+  return <div>{SERVICES.map((service, index) => <Service service={service} index={index} key={index} />)}</div>
 }
 
 
@@ -26,7 +26,7 @@ const Service = ({ service, index }: { service: Service, index?: number }) => {
     <div>
       <h2 id={`service-${index}`}> {index}. {service.title}</h2>
       <div className={styles.content}>
-        <p><div className={styles.problemEmphasis}>{service.problemEmphasis}</div>{service.problem}</p>
+        <p>{service.problemEmphasis}{service.problem}</p>
         <p><b>Our solution: </b>{service.solution}</p>
         {service.logoText && <div className={styles.logosTitle}>{service.logoText}</div>}
         {service.logos && <div className={styles.logos}>{service.logos}</div>}
