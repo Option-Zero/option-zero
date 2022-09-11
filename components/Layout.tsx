@@ -1,8 +1,8 @@
 import Head from 'next/head';
 import React from 'react';
 
-import styles from './layout.module.css';
-import Navbar from './navbar';
+import styles from './Layout.module.css';
+import Navbar from './Navbar';
 
 const Layout = ({ children }) => {
   return (
