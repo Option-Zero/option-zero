@@ -1,4 +1,4 @@
-import styles from '../styles/Services.module.css';
+import styles from './services.module.css';
 import React from 'react';
 import { ConvoyLogo, EnergySavvyLogo, MetaLogo, MicrosoftLogo, OlinLogo, OsmoLogo, SynapseLogo, USGBCLogo } from '../components/logos';
 
@@ -21,7 +21,7 @@ export const ServicesList = () => {
 const Service = ({ service, index }: { service: Service, index?: number }) => {
   return (
     <div>
-      <h2 className={styles.title}>{service.title}</h2>
+      <h2>{service.title}</h2>
       <div className={styles.content}>
         <p><div className={styles.problemEmphasis}>{service.problemEmphasis}</div>{service.problem}</p>
         <p><b>Our solution: </b>{service.solution}</p>

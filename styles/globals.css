@@ -19,3 +19,20 @@ a {
 h1, h2, h3, h4, h5 {
 	font-family: FuturaFuturisMedium;
 }
+
+h2 {
+  font-weight: 900;
+  font-size: 13pt;
+  text-transform: uppercase;
+  /* Add a gradient bottom border */
+  display: inline-block;
+  padding-bottom: .1em;
+  border-width: 0 0 2px 0;
+  border-style: solid;
+  border-image: 
+    linear-gradient(
+      to right, 
+      #73C959, 
+      #20E2D6
+    ) 1;
+}
