@@ -50,7 +50,16 @@ const SERVICES: Service[] = [
     title: "Software strategy for non-software founders",
     problemEmphasis: "You’re starting to incorporate software ",
     problem: "into your hardware-centric company, or ready to scale an existing prototype. What’s a reasonable timeline? Is software always the long pole? When should you build vs buy vs outsource?",
-    solution: "We’ll be your sounding board as you navigate scaling your software from 0 to 1, or from 1 to 100.",
+    solution: "We’ll help you navigate scaling your software from 0 to 1 or from 1 to 100.",
+    logoText: "Where we've strategized",
+    logos: (
+      <>
+        <EnergySavvyLogo />
+        <OsmoLogo />
+        <OlinLogo />
+        {/* <div>[Uprope]</div> */}
+      </>
+    )
   },
   {
 
@@ -74,8 +83,8 @@ const SERVICES: Service[] = [
 
     title: "Data pipelines & scientific model management",
     problemEmphasis: "You’ve got more data than you can handle. ",
-    problem: "Your models, if you have them, take hours to run.",
-    solution: "We’ll help make sure your scientists can iterate quickly without losing what you’ve already learned. If you don’t have a science team yet, we’ll run your analysis or build your proof-of-concepts with clean code you can build on.",
+    problem: "Your models take hours to run.",
+    solution: "We’ll ensure your scientists can iterate quickly without losing what you’ve already learned. If you don’t have a science team yet, we’ll run your analysis or develop your proof-of-concepts with clean code you can build on.",
     logoText: "Where we've wrangled data",
     logos: (
       <>
