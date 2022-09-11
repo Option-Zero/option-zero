@@ -11,15 +11,15 @@ const Services = () => {
   return (<div>
     <h3 className={styles.title}> Software strategy for non-software founders</h3>
     <div className={styles.content}>
-      <p>You$apos;re starting to incorporate software into your hardware-centric company, or ready to scale an existing prototype. What$apos;s a reasonable timeline? Is software always the long pole? When should you build vs buy vs outsource?</p>
-      <p>We$apos;ll be your sounding board as you navigate scaling your software from 0 to 1, or from 1 to 100.</p>
+      <p>Youre starting to incorporate software into your hardware-centric company, or ready to scale an existing prototype. Whats a reasonable timeline? Is software always the long pole? When should you build vs buy vs outsource?</p>
+      <p>Well be your sounding board as you navigate scaling your software from 0 to 1, or from 1 to 100.</p>
     </div>
 
     <h3 className={styles.title}>Foundational software team building</h3>
     <div className={styles.content}>
-      <p>You need to hire some software folks, but aren$apos;t sure how to identify the best candidates or compete with FAANG salaries.</p>
-      <p>We$apos;ll help you get your first software team off the ground, from designing a hiring pipeline to developing a healthy and efficient team culture.</p>
-      <p>Where we$apos;ve built teams:</p>
+      <p>You need to hire some software folks, but arent sure how to identify the best candidates or compete with FAANG salaries.</p>
+      <p>Well help you get your first software team off the ground, from designing a hiring pipeline to developing a healthy and efficient team culture.</p>
+      <p>Where weve built teams:</p>
       <div className={styles.logos}>
         <EnergySavvyLogo />
         <OsmoLogo />
@@ -29,9 +29,9 @@ const Services = () => {
 
     <h3 className={styles.title}>Data pipelines & scientific model management</h3>
     <div className={styles.content}>
-      <p>You$apos;ve got more data than you can handle. Your models, if you have them, take hours to run.</p>
-      <p>We$apos;ll help make sure your scientists can iterate quickly without losing what you$apos;ve already learned. If you don$apos;t have a science team yet, we$apos;ll run your analysis or build your proof-of-concepts with clean code you can build on.</p>
-      <p>Where we$apos;ve wrangled data:</p>
+      <p>Youve got more data than you can handle. Your models, if you have them, take hours to run.</p>
+      <p>Well help make sure your scientists can iterate quickly without losing what youve already learned. If you dont have a science team yet, well run your analysis or build your proof-of-concepts with clean code you can build on.</p>
+      <p>Where weve wrangled data:</p>
       <div className={styles.logos}>
         <MetaLogo />
         <EnergySavvyLogo />
@@ -43,9 +43,9 @@ const Services = () => {
 
     <h3 className={styles.title}>Full stack implementation</h3>
     <div className={styles.content}>
-      <p>You$apos;re not ready to hire full-time software, or your existing employees are busy with mission-critical work.</p>
-      <p>We$apos;ll get your first prototype built or tackle that side project that would accelerate your team or get more customers in the door.</p>
-      <p>Where we$apos;ve delivered:</p>
+      <p>Youre not ready to hire full-time software, or your existing employees are busy with mission-critical work.</p>
+      <p>Well get your first prototype built or tackle that side project that would accelerate your team or get more customers in the door.</p>
+      <p>Where weve delivered:</p>
       <p>Meta - Microsoft - Convoy - EnergySavvy - Osmo Systems - Qnuru - Synapse - Olin College</p>
       <div className={styles.logos}>
         <MetaLogo />
