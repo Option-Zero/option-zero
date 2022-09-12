@@ -9,8 +9,8 @@ const Navbar = () => {
     <div className={styles.sidebar}>
       <Image alt="Option Zero logo" src='/logo.svg' layout='fixed' width='100' height='40' />
       <nav>
-        <Link href="/services"><a>Services</a></Link>
         <Link href="/team"><a>Team</a></Link>
+        <Link href="/services"><a>Services</a></Link>
         <Link href="/contact"><a>Contact</a></Link>
       </nav>
     </div>
