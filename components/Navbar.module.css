@@ -1,35 +1,46 @@
 .sidebar nav {
   margin-top: 6rem;
-  position: relative;
-  right: 0px;
   display: flex;
   flex-direction: column;
-  font-size: 20px;
-}
-
-.sidebar nav a {
-  text-transform: uppercase;
-  text-align: right;
-  padding-bottom: 0.2em;
-  font-family: FuturaFuturisLight;
-}
-
-.sidebar nav a:hover {
-  font-weight: 900;
-  font-family: FuturaFuturisMedium;
 }
 
 .logo {
   display: flex;
 }
 
+.topbarContainer {
+  width: 100%;
+  flex-direction: column;
+}
+
 .topbar {
+  padding: 1em 1em;
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-.menu {
+.menuButton {
   display: flex;
 }
+
+.navDrawer {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  height: 100px;
+  padding: 10px;
+  background: #fff;
+  filter: drop-shadow(0 0.1em 0.05em rgba(0, 0, 0, 0.2));
+}
+
+.navDrawer nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+
+

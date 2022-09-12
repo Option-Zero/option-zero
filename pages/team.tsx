@@ -4,7 +4,7 @@ import styles from './team.module.css';
 const Team = () => {
   return (
     <div className={styles.content}>
-      <Image alt="team" src='/team.png' width="0" height="0" sizes="100vw" style={{ width: '300px', height: '100%', margin: '10px' }} />
+      <Image alt="team" src='/team.png' width="0" height="0" sizes="100vw" style={{ width: '300px', height: '100%' }} />
       <p>Hi!</p>
       <p>We’re Jaime and Jason Curtis, a husband and wife team.</p>
       <p>We’ve built on our combined 20+ years of experience in software and climate solutions to launch Option Zero, the software consultancy for climate companies & initiatives.</p>
