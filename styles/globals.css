@@ -61,16 +61,3 @@ p a:hover{
       #20E2D6
     ) 1;
 }
-
-nav a {
-  text-transform: uppercase;
-  text-align: right;
-  padding-bottom: 0.2em;
-  font-family: FuturaFuturisLight;
-  font-size: 20px;
-}
-
-nav a:hover {
-  font-weight: 900;
-  font-family: FuturaFuturisMedium;
-}

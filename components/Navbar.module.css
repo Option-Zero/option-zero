@@ -42,5 +42,17 @@
   width: 100%;
 }
 
+nav a.active, nav a.nonActive {
+  height: 26px;
+  text-transform: uppercase;
+  text-align: right;
+  line-height: 26px;
+  padding-bottom: 0.2em;
+  font-family: FuturaFuturisLight;
+  font-size: 20px;
+}
 
-
+nav a.nonActive:hover, nav a.active {
+  font-weight: 900;
+  font-family: FuturaFuturisMedium;
+}
