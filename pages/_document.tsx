@@ -9,7 +9,7 @@ export default function Document() {
         <meta property="og:title" content="Option Zero" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://optionzero.co" />
-        <meta property="og:image" content="https://optionzero.co/logo.svg" />
+        <meta property="og:image" content="https://optionzero.co/logo.png" />
         <meta property="og:image:alt" content="Option Zero Logo" />
         <meta property="og:description" content="Software Consultants for Climate Tech Companies" />
       </Head>
