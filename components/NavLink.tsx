@@ -5,7 +5,7 @@ import { useRouter } from 'next/router';
 import styles from './Navbar.module.css';
 
 
-export default ({ href, title }) => {
+const NavLink = ({ href, title }) => {
   const router = useRouter();
   const currentRoute = router.pathname;
 
@@ -17,3 +17,5 @@ export default ({ href, title }) => {
     </Link>
   )
 }
+
+export default NavLink;
