@@ -12,7 +12,7 @@ export default function Document() {
         <meta property="og:image" content="https://optionzero.co/logo.png" />
         <meta property="og:image:alt" content="Option Zero Logo" />
         <meta property="og:description" content="Software Consultants for Climate Tech" />
-        <script defer data-domain="optionzero.co" src="https://plausible.io/js/plausible.js"></script>
+        <script defer data-domain="optionzero.co" src="https://plausible.io/js/plausible.outbound-links.js"></script>
       </Head>
       <body>
         <Main />
