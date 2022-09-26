@@ -8,7 +8,7 @@ const Layout = ({ children }) => {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Option Zero</title>
+        <title>Option Zero: Software Consultancy for Climate Companies</title>
         <link rel="shortcut icon" href="/favicon.png"></link>
       </Head>
       <div className={styles.topbar}>
