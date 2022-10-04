@@ -1,4 +1,4 @@
-import styles from './services.module.css';
+import styles from './index.module.css';
 import React from 'react';
 import { ConvoyLogo, EnergySavvyLogo, MetaLogo, MicrosoftLogo, OlinLogo, OsmoLogo, SynapseLogo, USGBCLogo } from '../components/logos';
 
@@ -11,7 +11,7 @@ const Services = () => {
       <div className={styles.headlineContainer}>
         <h1 className={styles.tagline}>Modern software for climate tech</h1>
         <p className={styles.taglineExtra}>We do software strategy, implementation, data foundations, and team-building for companies making a difference on climate change</p>
-        <a href="https://airtable.com/shr5xEDLE7wKzbSBb" target="_blank" rel="noreferrer"><button className={styles.ctaButton}>Work With Us</button></a>
+        <a href="https://forms.gle/U4v2ZqNLzYdDbZPE6" target="_blank" rel="noreferrer"><button className={styles.ctaButton}>Work With Us</button></a>
       </div>
       <div className={styles.section}>
         <div className={styles.sectionTitle}>{"Services"}</div>

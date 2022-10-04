@@ -4,13 +4,4 @@ module.exports = {
       allowFutureImage: true
     }
   },
-  async redirects() {
-    return [
-      {
-        source: '/',
-        destination: '/services',
-        permanent: false,
-      },
-    ]
-  },
 }
