@@ -1,9 +1,3 @@
-.sidebar nav {
-  margin-top: 6rem;
-  display: flex;
-  flex-direction: column;
-}
-
 .logo {
   display: flex;
 }
@@ -19,40 +13,4 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-}
-
-.menuButton {
-  display: flex;
-}
-
-.navDrawer {
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-  height: 100px;
-  padding: 10px;
-  background: #fff;
-  filter: drop-shadow(0 0.1em 0.05em rgba(0, 0, 0, 0.2));
-}
-
-.navDrawer nav {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-}
-
-nav a.active, nav a.nonActive {
-  height: 26px;
-  text-transform: uppercase;
-  text-align: right;
-  line-height: 26px;
-  padding-bottom: 0.2em;
-  font-family: FuturaFuturisLight;
-  font-size: 20px;
-}
-
-nav a.nonActive:hover, nav a.active {
-  font-weight: 900;
-  font-family: FuturaFuturisMedium;
 }

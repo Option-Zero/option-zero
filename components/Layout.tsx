@@ -2,7 +2,7 @@ import Head from 'next/head';
 import React from 'react';
 
 import styles from './Layout.module.css';
-import { TopBar, Sidebar } from './Navbar';
+import { TopBar } from './Navbar';
 
 const Layout = ({ children }) => {
   return (
@@ -13,9 +13,6 @@ const Layout = ({ children }) => {
       </Head>
       <div className={styles.topbar}>
         <TopBar />
-      </div>
-      <div className={styles.sidebar}>
-        <Sidebar />
       </div>
       <main className={styles.mainContainer}>
         <div className={styles.mainContent}>

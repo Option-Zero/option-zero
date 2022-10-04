@@ -18,30 +18,39 @@ a {
   box-sizing: border-box;
 }
 
-h1, h2, h3, h4, h5 {
-	font-family: FuturaFuturisMedium;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: FuturaFuturisC;
+}
+
+h1 {
+  font-family: FuturaFuturisC;
+  font-size: 3.5em;
+  font-weight: 900;
 }
 
 h2 {
-  font-weight: 900;
+  font-weight: 500;
   font-size: 13pt;
   text-transform: uppercase;
-  /* Add a gradient bottom border */
+  margin-block: 0em;
   display: inline-block;
+  /* Add a gradient bottom border */
   padding-bottom: .1em;
   border-width: 0 0 2px 0;
   border-style: solid;
-  border-image: 
-    linear-gradient(
-      to right, 
-      #73C959, 
-      #20E2D6
-    ) 1;
+  border-image:
+    linear-gradient(to right,
+      #73C959,
+      #20E2D6) 1;
 }
 
 p {
   font-weight: 300;
-  margin-block: 1em;
+  margin-block: 0.5em;
 }
 
 p a {
@@ -51,13 +60,11 @@ p a {
   -webkit-text-fill-color: transparent;
 }
 
-p a:hover{
+p a:hover {
   border-width: 0 0 2px 0;
   border-style: solid;
-  border-image: 
-    linear-gradient(
-      60deg, 
-      #73C959, 
-      #20E2D6
-    ) 1;
+  border-image:
+    linear-gradient(60deg,
+      #73C959,
+      #20E2D6) 1;
 }

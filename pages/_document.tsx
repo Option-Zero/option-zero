@@ -5,7 +5,7 @@ export default function Document() {
     <Html>
       <Head>
         <link href="https://fonts.googleapis.com/css?family=IBM Plex Sans:100,200,300,400,500,600,900&display=optional" rel="stylesheet" type="text/css"></link>
-        <link href="https://fonts.googleapis.com/css?family=Inconsolata:900&display=optional" rel="stylesheet" type="text/css"></link>
+        {/* <link href="https://fonts.googleapis.com/css?family=Inconsolata:100,500,700,900&display=optional" rel="stylesheet" type="text/css"></link> */}
         <meta property="og:title" content="Option Zero" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://optionzero.co" />

@@ -1,49 +1,30 @@
 .container {
   min-height: 100vh;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   height: 100vh;
 }
 
-.sidebar {
-  flex: 1 1 0;
-  flex-direction: column;
-  display: flex;
-  padding: 1em 1em;
-}
-
 .topbar {
-  display: none;
+  display: flex;
+  flex-direction: row;
 }
 
 .mainContainer {
-  flex: 2 1 0;
   display: flex;
+  align-items: center;
   flex-direction: column;
   overflow: auto;
-  padding: 0 1em 0 1em;
+  padding: 0 1em;
 }
 
 .mainContent {
-  margin-top: 8rem;
+  margin-top: 4rem;
   max-width: 600px;
 }
 
 /* Swap to top nav bar with hamburger menu */
 @media only screen and (max-width: 600px) {
-  .sidebar {
-    display: none
-  }
-  
-  .topbar {
-    display: flex;
-    flex-direction: row;
-  }
-
-  .container {
-    flex-direction: column;
-  }
-
   .mainContent {
     margin-top: 1rem;
   }
