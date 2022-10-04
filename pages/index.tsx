@@ -19,25 +19,33 @@ const Services = () => {
       </div>
       <div className={styles.section}>
         <div className={styles.sectionTitle}>{"Where we've delivered"}</div>
-        <div className={styles.logos}>
-          <MetaLogo />
-          <MicrosoftLogo />
-          <ConvoyLogo />
-          <EnergySavvyLogo />
-          <OsmoLogo />
-          <SynapseLogo />
-          <OlinLogo />
-          <USGBCLogo />
-        </div>
+        <AllLogos />
       </div>
       <div className={styles.section}>
-        <div className={styles.sectionTitle}>{"About"}</div>
+        <div className={styles.sectionTitle}>Reviews</div>
+        <ReviewsList />
+      </div>
+      <div className={styles.section}>
+        <div className={styles.sectionTitle}>About</div>
         <p>We’re <a href="https://www.linkedin.com/in/jaimemarijke/" target="_blank" rel="noreferrer">Jaime</a> and <a href="https://www.linkedin.com/in/thejasoncurtis/" target="_blank" rel="noreferrer">Jason Curtis</a>, a husband and wife team. We’ve built on our combined 20+ years of experience in software and climate solutions to launch Option Zero, the software consultancy for climate companies & initiatives.</p>
         <p>If your mission is climate resilience, your mission is our mission.</p>
         <p>Contact us at <a href="mailto:team@optionzero.co" target="_blank" rel="noreferrer">team@optionzero.co</a></p>
       </div>
     </>
   )
+}
+
+const AllLogos = () => {
+  return <div className={styles.logos}>
+    <MetaLogo />
+    <MicrosoftLogo />
+    <ConvoyLogo />
+    <EnergySavvyLogo />
+    <OsmoLogo />
+    <SynapseLogo />
+    <OlinLogo />
+    <USGBCLogo />
+  </div>
 }
 
 export default Services
@@ -140,3 +148,43 @@ export const SERVICES: Service[] = [
 ]
 
 
+export const ReviewsList = () => {
+  return <div>{REVIEWS.map((review, index) => <Review review={review} index={index} key={index} />)}</div>
+}
+
+
+const Review = ({ review, index }: { review: Review, index?: number }) => {
+  return (
+    <div id={`review-${index}`}>
+      <div className={styles.content}>
+        <p><i>"{review.content}"</i></p>
+        <p>—{review.reviewer}, {review.titleAndCompany}</p>
+      </div>
+    </div>
+  )
+}
+
+
+type Review = {
+  content: string;
+  reviewer?: string;
+  titleAndCompany?: string;
+}
+
+const REVIEWS = [
+  {
+    content: "Jaime and Jason are a stellar team. They were instrumental in building and running our highly collaborative team and kept us laser-focused on our top strategic priorities. If you want a team to help you figure out where you need to go and get you there fast, you want Jaime and Jason.",
+    reviewer: "James Regulinksi",
+    titleAndCompany: "CTO, Carbon Collective",
+  },
+  {
+    content: "Jason is...perhaps the strongest developer I have worked with",
+    reviewer: "Tom Abeles",
+    titleAndCompany: "CEO, UPROPE",
+  },
+  // {
+  //   content: "There are only a handful of engineers where just about every interaction I have with them, I learn something to become better, [and] Jason is one of them",
+  //   reviewer: "TJ Gilbrough",
+  //   titleAndCompany: "Senior SDE, Meta",
+  // },
+]
