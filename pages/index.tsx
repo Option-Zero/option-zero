@@ -157,7 +157,7 @@ const Review = ({ review, index }: { review: Review, index?: number }) => {
   return (
     <div id={`review-${index}`}>
       <div className={styles.content}>
-        <p><i>"{review.content}"</i></p>
+        <p><i>{review.content}</i></p>
         <p>—{review.reviewer}, {review.titleAndCompany}</p>
       </div>
     </div>
