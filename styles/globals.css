@@ -18,21 +18,14 @@ a {
   box-sizing: border-box;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5 {
-  font-family: FuturaFuturisC;
-}
-
 h1 {
-  font-family: FuturaFuturisC;
-  font-size: 3.5em;
-  font-weight: 900;
+  font-family: IBM Plex Sans, sans-serif;
+  font-size: 50pt;
+  font-weight: 600;
 }
 
 h2 {
+  font-family: FuturaFuturisC;
   font-weight: 500;
   font-size: 13pt;
   text-transform: uppercase;
