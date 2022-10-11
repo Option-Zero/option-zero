@@ -27,7 +27,7 @@ const Services = () => {
       </div>
       <div className={styles.section}>
         <div className={styles.sectionTitle}>About</div>
-        <p>We’re <a href="https://www.linkedin.com/in/jaimemarijke/" target="_blank" rel="noreferrer">Jaime</a> and <a href="https://www.linkedin.com/in/thejasoncurtis/" target="_blank" rel="noreferrer">Jason Curtis</a>, a husband and wife team. We’ve built on our combined 20+ years of experience in software and climate solutions to launch Option Zero, the software consultancy for climate companies & initiatives.</p>
+        <p>We’re <a href="https://www.linkedin.com/in/thejasoncurtis/" target="_blank" rel="noreferrer">Jason</a> and <a href="https://www.linkedin.com/in/jaimemarijke/" target="_blank" rel="noreferrer">Jaime Curtis</a>, a husband and wife team. We’ve built on our combined 20+ years of experience in software and climate solutions to launch Option Zero, the software consultancy for climate companies & initiatives.</p>
         <p>If your mission is climate resilience, your mission is our mission.</p>
         <p>Contact us at <a href="mailto:team@optionzero.co" target="_blank" rel="noreferrer">team@optionzero.co</a></p>
       </div>
